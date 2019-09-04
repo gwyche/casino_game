@@ -1,5 +1,7 @@
 # CASINO GAME
 
+Download the [JAR file](https://github.com/gwyche/casino_game/blob/master/out/artifacts/DiceGameV1_jar/DiceGameV1.jar)
+
 This is a Java implementation of the game [Craps](https://en.wikipedia.org/wiki/Craps).
 
 This game has simple rules. 
