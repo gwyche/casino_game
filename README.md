@@ -42,7 +42,7 @@ Rulebook class with a factory method (Contains main logic for single-round playe
 
 6) When a completion signal is finally sent to the Casino class, the Casino class prints it on the command line and asks if the player wants to play again. A do-while loop surrounds most of the code in this method and it breaks when a String attribute of Casino is either set to y, Y, n, or N. Inside the loop, after the Casino asks the user whether they want to play again, a utility method is called that handles command line inputing and input validation.
 
-###### Testing
+### Testing
 
 Twelve JUnit tests were performed that confirm the successful operation of the game's core functionality.
 
