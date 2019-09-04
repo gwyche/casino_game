@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DealerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-09-04T15:16:20" hostname="PC" time="0.002">
+  <properties/>
+  <testcase name="reportLuck1" classname="DealerTest" time="0.002"/>
+  <testcase name="reportLuck2" classname="DealerTest" time="0.0"/>
+  <testcase name="reportLuck3" classname="DealerTest" time="0.0"/>
+  <testcase name="reportLuck4" classname="DealerTest" time="0.0"/>
+  <testcase name="reportLuck5" classname="DealerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

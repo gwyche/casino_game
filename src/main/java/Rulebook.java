@@ -22,14 +22,14 @@ public class Rulebook {
         }
 
         //Not first roll
-        if(experienceChip == 1){
-            if(sum == 4 || sum == 5 || sum == 6 || sum == 8 || sum == 9 || sum == 10){
+        if(experienceChip == 1) {
+            if (sum == 4 || sum == 5 || sum == 6 || sum == 8 || sum == 9 || sum == 10) {
                 fate = 1;
+            } else if (sum == 7) {
+                fate = -1;
+            } else {
+                fate = 0;
             }
-        }else if(sum == 7){
-            fate = -1;
-        }else{
-            fate = 0;
         }
 
         //If fate = 0 is returned, the Dealer can automatically deduce that a round has been played

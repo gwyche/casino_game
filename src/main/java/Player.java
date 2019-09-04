@@ -18,6 +18,10 @@ public class Player {
 
     public int getDice2() { return dice2; }
 
+    //Setters  TESTING USE ONLY
+    public void setDice1(int input){ this.dice1 = input; }
+
+    public void setDice2(int input){ this.dice2 = input; }
 
     //Sets attributes to new random numbers
     public void newRoll(){
