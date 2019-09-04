@@ -16,7 +16,7 @@ If the player has Point, they have to keep rolling until they get either a 7, in
 
 ### Design
 
-#### Components
+#### Components:
 
 Casino class with a main method
 
