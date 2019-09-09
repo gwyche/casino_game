@@ -1,4 +1,4 @@
-public class greetings {
+public class Greetings {
 
     public static void greet(){
         //Greetings

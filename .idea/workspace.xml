@@ -7,10 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d230d9b0-a94e-4f37-b63d-99d9509174d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/DiceGameV1_jar3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/documentation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/greetings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/meta-here1/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/DiceGameV1_jar5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meta_here3/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -18,13 +16,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/Casino.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Casino.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Dealer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Dealer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DiceGameV1_jar2/DiceGameV1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DiceGameV1_jar2/DiceGameV1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/documentation.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/documentation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/greetings.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/greetings.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Casino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Casino.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dealer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dealer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/documentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Documentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/greetings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Greetings.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +54,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/meta_here2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/meta_here3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -201,6 +199,7 @@
       <workItem from="1567777189443" duration="29000" />
       <workItem from="1567778381338" duration="126000" />
       <workItem from="1567995956306" duration="6566000" />
+      <workItem from="1568032685318" duration="592000" />
     </task>
     <servers />
   </component>

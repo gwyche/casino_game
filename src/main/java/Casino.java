@@ -4,7 +4,7 @@ public class Casino {
 
         //Call method that prints greeting text
         System.out.println("");
-        greetings.greet();
+        Greetings.greet();
 
         System.out.println("Shall we play? Y or N.");
 
@@ -53,15 +53,15 @@ public class Casino {
             System.out.println("Maybe another time.");
         }
 
-        //Prompt offers to display the documentation
-        System.out.println("Would you like to read the documentation for this game? Y or N");
+        //Prompt offers to display the Documentation
+        System.out.println("Would you like to read the Documentation for this game? Y or N");
 
         //A factory method receives the user's response and verifies the input is valid
         String explanation = VerifyInput.ConfirmY_N();
 
-        //Call method that prints documentation
+        //Call method that prints Documentation
         if(explanation.equalsIgnoreCase("Y")){
-            documentation.docs();
+            Documentation.docs();
         }else{
             System.out.println("");
             System.out.println("No problem! Maybe next time.");

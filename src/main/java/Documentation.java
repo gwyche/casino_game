@@ -1,4 +1,4 @@
-public class documentation {
+public class Documentation {
 
     public static void docs(){
         //Documentation
