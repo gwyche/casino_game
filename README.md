@@ -9,7 +9,7 @@
 
 # CASINO GAME
 
-Download the [JAR file](https://github.com/gwyche/casino_game/blob/master/out/artifacts/DiceGameV1_jar6/DiceGameV1.jar)
+Download the [JAR file](https://github.com/gwyche/casino_game/blob/master/out/artifacts/DiceGameV1_jar7/DiceGameV1.jar)
 
 This is a Java implementation of the game [Craps](https://en.wikipedia.org/wiki/Craps).
 
