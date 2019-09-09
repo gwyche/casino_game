@@ -35,13 +35,13 @@ Player class with a no-arg constructor (Constructor generates 2 random ints (1-6
 
 Hand class with no-arg constructor (Capable of storing 2 private ints).
 
-Dealer class with a factory method (Calls the Rulebook class and interprets its response. Detects when player has played before).
+Dealer class with a static method (Calls the Rulebook class and interprets its response. Detects when player has played before).
 
-Rulebook class with a factory method (Contains main logic for single-round player win-lose-point decision).
+Rulebook class with a static method (Contains main logic for single-round player win-lose-point decision).
 
-Greetings class with factory method.
+Greetings class with static method.
 
-Documentation class with factory method.
+Documentation class with static method.
 
 
 ### Operation
