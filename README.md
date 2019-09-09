@@ -30,6 +30,11 @@ Dealer class with a factory method (Calls the Rulebook class and interprets its 
 
 Rulebook class with a factory method (Contains main logic for single-round player win-lose-point decision).
 
+Greetings class with factory method.
+
+Documentation class with factory method.
+
+
 ### Operation
 
 1) The Casino class instantiates a player who immediately rolls 2 dice and holds those values internally.
