@@ -29,6 +29,10 @@ public class Dealer {
 
         //Begin judging hands
         do {
+            //Print dice values
+            System.out.println("Dice 1: "+hand.getD1());
+            System.out.println("Dice 2: "+hand.getD2());
+
             if(win_loss == -2){
                 experienceChip = 0;  //First round
             }else{
@@ -37,6 +41,11 @@ public class Dealer {
 
             //Get results for the player's current hand
             win_loss = Rulebook.gameRules(hand, experienceChip);
+
+            //Detect and report point condition initiation
+            if(win_loss == 0 && experienceChip == 0){
+                System.out.println("Point");
+            }
 
             //Have the player roll a new pair of die and update their respective attributes in the Hand instance
             //just in case the game isn't over after checking the gameRules in the Rulebook

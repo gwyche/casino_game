@@ -2,38 +2,70 @@ public class Casino {
 
     public static void main(String[] args) {
 
+        //Call method that prints greeting text
+        System.out.println("");
+        greetings.greet();
 
-        String letsPlay = "";
+        System.out.println("Shall we play? Y or N.");
 
-        do {
+        //Factory method that handles command line input and validates the input before passing it to the calling method
+        String begin = VerifyInput.ConfirmY_N();
+        System.out.println("");
 
-            //Declare Player as a participant in the game
-            Player P = new Player();
+        //If the user enters Y, a game commences
+        if(begin.equalsIgnoreCase("Y")) {
 
-            //Casino calls the dealer and waits for their final report about the player's performance
-            int outcome = Dealer.reportLuck(P);
+            String letsPlay = "";
 
-            //Non-null initial string value
-            String result = "";
+            do {
 
-            //Reporting if statements
-            if (outcome == 1) {
-                result = "WIN";
-            } else {
-                result = "LOSE";
-            }
+                //Declare Player as a participant in the game
+                Player P = new Player();
 
-            //Player's results are printed
-            System.out.println(result);
+                //Casino calls the dealer and waits for their final report about the player's performance
+                int outcome = Dealer.reportLuck(P);
 
-            //Game invites player to play another game
-            System.out.println("Would you like to play again? Press Y or N.");
+                //Non-null initial string value
+                String result = "";
 
-            //A factory method receives the user's response and verifies the input is valid
-            letsPlay = VerifyInput.ConfirmY_N();
+                //Reporting if statements
+                if (outcome == 1) {
+                    result = "Sweet. WIN";
+                } else {
+                    result = "Oh, too bad. LOSE";
+                }
 
-        }while(letsPlay.equalsIgnoreCase("y"));
+                //Player's results are printed
+                System.out.println(result);
 
-        System.out.println("Thanks For Playing!");
+                //Game invites player to play another game
+                System.out.println("");
+                System.out.println("Would you like to play again? Press Y or N.");
+
+                //A factory method receives the user's response and verifies the input is valid
+                letsPlay = VerifyInput.ConfirmY_N();
+                System.out.println("");
+
+            } while (letsPlay.equalsIgnoreCase("y"));
+
+            System.out.println("Thanks For Playing!");
+        }else{
+            System.out.println("Maybe another time.");
+        }
+
+        //Prompt offers to display the documentation
+        System.out.println("Would you like to read the documentation for this game? Y or N");
+
+        //A factory method receives the user's response and verifies the input is valid
+        String explanation = VerifyInput.ConfirmY_N();
+
+        //Call method that prints documentation
+        if(explanation.equalsIgnoreCase("Y")){
+            documentation.docs();
+        }else{
+            System.out.println("");
+            System.out.println("No problem! Maybe next time.");
+        }
+
     }
 }
