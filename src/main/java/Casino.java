@@ -8,7 +8,7 @@ public class Casino {
 
         System.out.println("Shall we play? Y or N.");
 
-        //Factory method that handles command line input and validates the input before passing it to the calling method
+        //Static method that handles command line input and validates the input before passing it to the calling method
         String begin = VerifyInput.ConfirmY_N();
         System.out.println("");
 
@@ -42,7 +42,7 @@ public class Casino {
                 System.out.println("");
                 System.out.println("Would you like to play again? Press Y or N.");
 
-                //A factory method receives the user's response and verifies the input is valid
+                //A static method receives the user's response and verifies the input is valid
                 letsPlay = VerifyInput.ConfirmY_N();
                 System.out.println("");
 
@@ -56,7 +56,7 @@ public class Casino {
         //Prompt offers to display the Documentation
         System.out.println("Would you like to read the Documentation for this game? Y or N");
 
-        //A factory method receives the user's response and verifies the input is valid
+        //A static method receives the user's response and verifies the input is valid
         String explanation = VerifyInput.ConfirmY_N();
 
         //Call method that prints Documentation

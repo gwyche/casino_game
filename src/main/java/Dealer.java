@@ -1,6 +1,6 @@
 public class Dealer {
 
-    //This factory method within Dealer class asks the assigned player what
+    //This static method within Dealer class asks the assigned player what
     //dice values they rolled and depending on what those values are
     //either awards victory, loss, or has the player re-roll for another round
     public static int reportLuck(Player player){

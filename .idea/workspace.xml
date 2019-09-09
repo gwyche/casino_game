@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="DiceGameV1:jar6" />
+      <artifact name="DiceGameV1:jar7" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d230d9b0-a94e-4f37-b63d-99d9509174d9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Casino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Casino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dealer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dealer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Documentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Documentation.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +42,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/meta_here4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/meta_here5" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -186,6 +189,7 @@
       <workItem from="1567995956306" duration="6566000" />
       <workItem from="1568032685318" duration="592000" />
       <workItem from="1568033551015" duration="178000" />
+      <workItem from="1568043878239" duration="540000" />
     </task>
     <servers />
   </component>
