@@ -1,3 +1,6 @@
+#CHECK OUT MY OTHER COURSEWORK COMPLETED TO FULLFILL REQUIREMENTS FOR TECH TALENT SELECT [HERE](https://github.com/gwyche/Homeworks-for-TTS-Select/blob/master/README.md).
+
+
 # CASINO GAME
 
 Download the [JAR file](https://github.com/gwyche/casino_game/blob/master/out/artifacts/DiceGameV1_jar6/DiceGameV1.jar)
